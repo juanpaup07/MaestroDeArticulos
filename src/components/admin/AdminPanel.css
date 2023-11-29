@@ -1,0 +1,99 @@
+/* AdminPanel.css */
+
+/* Estilo para el contenedor principal */
+#admin-panel {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.subheader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button{
+  width: auto;
+  height: 35px;
+  border-radius: 3px;
+  background-color: #99b898;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+  border: transparent;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: thin  ;
+  cursor: pointer;
+  text-decoration: none;
+}
+.header2{
+    background-color:#2A363B;
+    border-radius: 5px;
+    justify-content: center;
+    height: 200px;
+}
+  /* Estilo para cada elemento de la lista de productos */
+  .product-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #00000000;
+    border-radius: 8px;
+    box-shadow: -10px 9px 72px -26px rgb(56, 55, 55);
+    transition: transform 0.2s ease-in-out;
+    background-color: white;
+  }
+  .idfoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  
+  /* Estilo para la imagen del producto */
+  .product-image {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+  
+  /* Estilo para los botones de acción */
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Estilo para el botón de eliminar */
+  .delete-button {
+    background-color: #ff6347; /* Color coral */
+   
+    width: auto;
+    height: 35px;
+    border-radius: 3px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    border: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: thin  ;
+    cursor: pointer;
+    text-decoration: none;
+
+  }
+  
